@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "Hello, World! Canary Deployment v1"
+    return "Hello, World! Canary Deployment v2"
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
